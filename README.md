@@ -43,7 +43,7 @@ Copie este código e envie ao desenvolvedor para receber sua Chave de Ativação
 Cole a chave no campo indicado e clique em 🔓 Desbloquear Sistema.
 
 ### 2. ⚙️ Configurando a Integração Zabbix
-No menu lateral, vá em Ferramentas > Configurar Zabbix.
+No menu lateral, vá em Configurar Zabbix.
 
 Informe a URL da API (ex: http://monitor.empresa.com.br/zabbix/api_jsonrpc.php).
 
@@ -52,7 +52,6 @@ Informe o API Token gerado no Zabbix (Administração > Usuários > Tokens).
 Clique em Salvar. A partir de agora, ao editar um elemento no mapa, você poderá vincular Grupos, Hosts e Triggers do seu Zabbix.
 
 ### 3. 💾 Backup e Manutenção
-Banco de Dados: Todos os seus POPs e fibras ficam salvos na pasta local ./data.
 
 Rotina de Backup: Recomendamos baixar o arquivo de backup regularmente através do botão "Download Backup" no painel de ferramentas.
 
