@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend-api:
+    image: syllas124254/geofiber-backendprod:v1.0
+    container_name: geofiber_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - /etc/machine-id:/etc/host_machine_id:ro
+    restart: always
+
+  frontend-web:
+    image: syllas124254/geofiber-frontendprod:v1.0
+    container_name: geofiber_frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend-api
+    restart: always
