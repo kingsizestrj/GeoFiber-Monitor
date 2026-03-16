@@ -25,9 +25,9 @@ Certifique-se de que o **Docker** e o **Docker Compose** estão instalados no se
 ### 2. Deploy
 
 ```bash
-git clone https://git.nexoslive.com.br/SyllasGS/GeoFiber-Monitor-1.0.git
+git clone https://github.com/kingsizestrj/GeoFiber-Monitor.git
 
-cd GeoFiber-Monitor-1.0
+cd GeoFiber-Monitor
 
 docker compose up -d
 ```
