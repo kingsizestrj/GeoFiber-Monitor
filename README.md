@@ -8,7 +8,7 @@ O **GeoFiber Monitor** é uma solução profissional de monitoramento georrefere
 
 * **Mapa Interativo:** Visualização via Leaflet com suporte a importação de KML e desenho manual de rotas.
 * **Monitoramento em Tempo Real:** Integração via API do Zabbix para leitura de Triggers e Itens de tráfego.
-* **Alertas Visuais e Sonoros:** Animações de pulsação em elementos com falha e alertas sonoros configuráveis.
+* **Alertas Visuais e Sonoros:** Animações de pulsação em elementos com falha e alertas sonoros.
 * **Gestão de Backup:** Interface simplificada para download e restauração da base de dados da rede.
 * **NOC Mode:** Interface limpa e otimizada para Video Walls e operação 24/7.
 * **Segurança Industrial:** Backend criptografado e licenciamento vinculado ao hardware (HWID).
