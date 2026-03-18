@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend-api:
-    image: syllas124254/geofiber-backendprod:v1.0
+    image: syllas124254/geofiber-backend:v1.0
     container_name: geofiber_backend
     ports:
       - "8000:8000"
@@ -12,7 +12,7 @@ services:
     restart: always
 
   frontend-web:
-    image: syllas124254/geofiber-frontendprod:v1.0
+    image: syllas124254/geofiber-frontend:v1.0
     container_name: geofiber_frontend
     ports:
       - "8080:80"
